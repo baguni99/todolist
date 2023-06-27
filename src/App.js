@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import './App.css';
-import AddTodo from './AddTodo';
-import Todo from './Todo';
+import AddTodo from './components/AddTodo';
+import Todo from './components/Todo';
 
 function App() {
   const storedTodos = JSON.parse(localStorage.getItem('todos')) || [];
